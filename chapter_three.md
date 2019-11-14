@@ -1,3 +1,8 @@
 - files in python are called modules.(THIS IS DIFFERENT FROM A RUBY MODULE)
 - playground.py is a module.  wsgi.py is a module. etc, etc.
-- all code is executed top to bottom each time it is run 
+- all code is executed top to bottom each time it is run
+- every file that ends in .py is a module
+- import operations let you load that file and give you access to its content
+- w/ large programs, one module is the main/top-level file, and this is the one that is launched to start the whole program
+- you can only import something once per session even if you change the source file; because its expensive to import something
+- you can overwrite this using the imp library and reload function w/o killing your session. Also it will be different if you changed your source file
