@@ -1,0 +1,3 @@
+- files in python are called modules.(THIS IS DIFFERENT FROM A RUBY MODULE)
+- playground.py is a module.  wsgi.py is a module. etc, etc.
+- all code is executed top to bottom each time it is run 
